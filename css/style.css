@@ -5,7 +5,7 @@
     font-family: 'Righteous', cursive;
 }
 body{
-    background-color:lightgray;  
+    background-color:rgb(228, 228, 228);  
     color: rgb(71, 71, 71);  
 }
 
@@ -113,4 +113,29 @@ font-size: 1rem;
     line-height: 15px;
     border-radius: 50%;
     text-align: center;
+}
+
+    /* INPUNT/PULSANTI */
+
+input{
+    padding: 5px 10px;
+    border-radius: 8px;
+    
+}
+
+.section{
+    background-color: transparent;
+    color: rgb(175, 175, 175);
+    border-color: rgba(175, 175, 175, 0.5);
+}
+.task{
+    background-color: #45abe9;
+    color: rgb(255, 255, 255);
+    border-color: transparent;
+}
+
+sub{
+margin-left: 45%;
+    font-size: 12px;
+    font-style: italic;
 }
