@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+    font-family: 'Righteous', cursive;
+}
+body{
+    background-color:lightgray;    
+}
+
+    /* HEADER */
+
+.container {
+    background-color: white;
+    line-height: 70px;     
+}
+
+.logo{
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.title{
+    font-size: 30px;
+    font-family:'Cherry Bomb One', cursive;    
+    vertical-align: middle;    
+}
+
+    /* MAIN */
