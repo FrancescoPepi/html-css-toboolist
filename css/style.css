@@ -5,7 +5,8 @@
     font-family: 'Righteous', cursive;
 }
 body{
-    background-color:lightgray;    
+    background-color:lightgray;  
+    color: rgb(71, 71, 71);  
 }
 
     /* HEADER */
@@ -21,11 +22,13 @@ body{
 }
 .title{
     font-size: 30px;
+    color: black;
     font-family:'Cherry Bomb One', cursive;    
     vertical-align: middle;    
 }
 
     /* MAIN */
+
 main{    
     margin: 20px 20%;
 }    
@@ -42,6 +45,8 @@ main{
     background-color: white;
     border-radius: 0 0 10px 10px;
 }
+
+    /* SEZIONI NOTIFICHE */
 
 .notification{
     cursor:pointer;
@@ -72,4 +77,40 @@ main{
 
 .Sales{
     background-color: #b0c926;
+}
+
+    /* SEZIONE VERO O FALSO(?) */
+
+.mini-task{
+    margin: 10px 0px;
+}
+
+.arrow{
+font-size: 1rem;
+}
+
+.true{
+    font-size: 0.65rem;
+    font-weight: 900;
+    color: rgba(5, 175, 5, 0.664);
+    border: 2px solid rgba(5, 175, 5, 0.664);
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    line-height: 15px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.false{
+    font-size: 0.65rem;
+    font-weight: 900;
+    color: rgba(255, 6, 6, 0.664);
+    border: 2px solid rgba(255, 6, 6, 0.664);
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    line-height: 15px;
+    border-radius: 50%;
+    text-align: center;
 }
