@@ -10,7 +10,7 @@ body{
 
     /* HEADER */
 
-.container {
+.container-logo {
     background-color: white;
     line-height: 70px;     
 }
@@ -26,3 +26,50 @@ body{
 }
 
     /* MAIN */
+main{    
+    margin: 20px 20%;
+}    
+.menu{
+    padding: 0px 50px;
+    line-height: 70px; 
+    background-color: white;
+    margin-bottom: 5px;
+    border-radius: 10px 10px 0 0;
+}
+
+.all-info{
+    padding: 50px;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+}
+
+.notification{
+    cursor:pointer;
+    display: inline-block;
+    color: white;
+    font-size: 0.65rem;
+    padding: 5px 10px;
+    border-radius: 10px;   
+}
+.Editorial{
+    background-color: #45abe9;
+}
+.q1-goals{
+    background-color: #9c72e4;
+}
+
+.Recruiting{
+    background-color: #64c0a9;
+}
+
+.Mobile{
+    background-color: #f29d33;
+}
+
+.Website{
+    background-color: #d863a1;
+}
+
+.Sales{
+    background-color: #b0c926;
+}

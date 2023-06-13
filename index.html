@@ -1,25 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 
     <title>Toboolist</title>
 </head>
 <body>
-    <header class="container">
+    <!-- Logo + titolo -->
+    <header class="container-logo">
         <img src="./img/Logo.png" alt="Logo Toboolist" class="logo">
         <span class="title">Toboolist</span>
     </header>
+    <!-- Barra con pulsanti -->
     <main>
-        <div class="menu">
+        <div class="menu container">
             <input type="button" value="Add Task">
             <input type="button" value="Add Section">
         </div>
@@ -29,26 +31,26 @@
                 <h2>New Task</h2>
                 <div>
                     <span>Quarterly Newsletter</span>
-                    <span>Editorial</span>
+                    <span class="notification Editorial">Editorial</span>
                 </div>
             </section>
             <section>
                 <h2>Today</h2>
                 <div>
                     <span>Recruiting blog post</span>
-                    <span>Editorial</span>
+                    <span class="notification Editorial">Editorial</span>
                 </div>
                 <div>
                     <span>Mobile app luaunch</span>
-                    <span>Q1 Goals</span>
+                    <span class="notification q1-goals">Q1 Goals</span>
                 </div>
                 <div>
                     <span>Interview John H.</span>
-                    <span>Recruiting</span>
+                    <span class="notification Recruiting">Recruiting</span>
                 </div>
                 <div>
                     <span>Summit update to mobile storefronts</span>
-                    <span>Mobile</span>
+                    <span class="notification Mobile">Mobile</span>
                 </div>
             </section>
             <section>
@@ -58,15 +60,15 @@
                 </div>
                 <div>
                     <span>Homepage refresh</span>
-                    <span>Website</span>
+                    <span class="notification Website">Website</span>
                 </div>
                 <div>
                     <span>Onboard new Sales team members</span>
-                    <span>Sales</span>                    
+                    <span class="notification Sales">Sales</span>                    
                 </div>
                 <div>
                     <span>Review editorial calendar</span>
-                    <span>Editorial</span>
+                    <span class="notification Editorial">Editorial</span>
                 </div>
             </section>
         </div>
